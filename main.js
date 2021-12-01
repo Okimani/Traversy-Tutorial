@@ -49,5 +49,7 @@ console.log(fruits);
 fruits [3] = 'grapes'; //add grapes to the fruits array, goes to the end but not the best way to go about it
 fruits.push('Mangoes'); //added as the last item
 fruits.unshift('strawberries'); //Adds strawberry as the first item
-console.log(fruits[1]); //Accessing arrays, this will print apples since apples in on index 1
+console.log(fruits[1]); //Accessing arrays, this will print apples since apples is on index 1
 console.log(fruits) // this will print out all the items in the array.
+fruits.pop() // removes the last item from the list. 
+console.log(Array.isArray(fruits)); //check if there is an array called fruits
