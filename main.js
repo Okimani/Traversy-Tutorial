@@ -33,3 +33,12 @@ console.log (s.substring(0, 5)); //substring extracts from specified index
 console.log (s.substring(0, 5).toUpperCase()); // You can also chain the code into each other 
 console.log (s.split('')); //This will split each letter 
 
+// Splitting into an array
+const y =('AWS, AZURE, VMWARE, GCP, ALIBABA'); 
+console.log(y.split(', ')); //Split into an array that you can feed into a database
+
+//Arrays variables that hold multiple values
+
+const numbers = new Array(1,2,3,4,5); // old method using array constructor
+console.log(numbers);
+
