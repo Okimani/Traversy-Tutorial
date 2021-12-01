@@ -54,3 +54,17 @@ console.log(fruits) // this will print out all the items in the array.
 fruits.pop() // removes the last item from the list. 
 console.log(Array.isArray(fruits)); //check if there is an array called fruits
 console.log(fruits.indexOf('mangoes')); // to find the index of an item in an array
+
+//Javascript Objects literals 
+
+const person = {
+    firstname: 'John',
+    lastname: 'Doe',
+    age: 30,
+    hobbies: ['Music','Movies','Sports'],
+    address: {
+        street:'50 main st',
+        city: 'Boston',
+        state: 'MA'
+    }
+}
