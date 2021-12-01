@@ -74,5 +74,8 @@ console.log(person); //prints out all the values
 console.log(person.hobbies[1]); //prints out movies which is in index 1 
 console.log(person.address.street); //prints out the street name. 
 
+//destructuring in javascript
+const {firstname, lastname} =person;
+console.log(firstname);
 
 
