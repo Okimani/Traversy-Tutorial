@@ -78,4 +78,7 @@ console.log(person.address.street); //prints out the street name.
 const {firstname, lastname} =person;
 console.log(firstname);
 
+//we can also add properties as below
+person.email ='oscar@gmail.com'
+console.log(person) // if you run this code you will notice an email has been added
 
