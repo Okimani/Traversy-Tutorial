@@ -26,10 +26,10 @@
 // string properties,  note a property doesn't have parenthesis, lenght counts plus the spaces
 const s =('hello World');
 
-console.log (s.length); //property therefore no paranthesis
+console.log (s.length); //lenth is a property therefore no paranthesis
 
-console.log (s.toUpperCase()); //method, therefore use of parenthesis
+console.log (s.toUpperCase()); //to uppercase is a method, therefore use of parenthesis
 console.log (s.substring(0, 5)); //substring extracts from specified index
-
+console.log (s.substring(0, 5).toUpperCase()); // You can also chain the code into each other 
 
 
