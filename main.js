@@ -56,7 +56,7 @@ console.log(Array.isArray(fruits)); //check if there is an array called fruits
 console.log(fruits.indexOf('mangoes')); // to find the index of an item in an array
 
 //Javascript Objects literals 
-
+//You can have embedded objects e.g address example below
 const person = {
     firstname: 'John',
     lastname: 'Doe',
@@ -68,3 +68,11 @@ const person = {
         state: 'MA'
     }
 }
+//You can separate different console logs with commas
+console.log(person.firstname, person.lastname);
+console.log(person); //prints out all the values 
+console.log(person.hobbies[1]); //prints out movies which is in index 1 
+console.log(person.address.street); //prints out the street name. 
+
+
+
