@@ -23,10 +23,10 @@ console.log(`My name is  ${names} and I am ${age} years old`);
 const hello = `My name is  ${names} and I am ${age} years old`;
 console.log(hello);
 
-// string properties,  note a property doesn't have parenthesis, lenght counts plus the spaces
+// string properties,  note a property doesn't have parenthesis, length counts plus the spaces
 const s =('hello World');
 
-console.log (s.length); //lenth is a property therefore no paranthesis
+console.log (s.length); //length is a property therefore no paranthesis
 
 console.log (s.toUpperCase()); //to uppercase is a method, therefore use of parenthesis
 console.log (s.substring(0, 5)); //substring extracts from specified index
@@ -42,3 +42,7 @@ console.log(y.split(', ')); //Split into an array that you can feed into a datab
 const numbers = new Array(1,2,3,4,5); // old method using array constructor
 console.log(numbers);
 
+//new way of using arrays
+const fruits = ['apples', 'oranges', 'pineapples'];
+console.log(fruits);
+//note that in Javascript you can mix up the data types in an array 'apples' 10, true 'oranges'
