@@ -46,3 +46,8 @@ console.log(numbers);
 const fruits = ['apples', 'oranges', 'pineapples'];
 console.log(fruits);
 //note that in Javascript you can mix up the data types in an array 'apples' 10, true 'oranges'
+fruits [3] = 'grapes'; //add grapes to the fruits array, goes to the end but not the best way to go about it
+fruits.push('Mangoes'); //added as the last item
+fruits.unshift('strawberries'); //Adds strawberry as the first item
+console.log(fruits[1]); //Accessing arrays, this will print apples since apples in on index 1
+console.log(fruits) // this will print out all the items in the array.
