@@ -9,11 +9,27 @@
 
 //console.log(typeof names);
 
-const names ='John';
-const age = 30;
+//const names ='John';
+//const age = 30;
+
 //concatenation
-//old method 
+//old method of concatenation
 //console.log ('my name is ' + names + ' and I am '+ age);
 
-console.log(`My name is  ${names} and I am ${age} years old`);
+//New method of concatenation
+//console.log(`My name is  ${names} and I am ${age} years old`);
+
+//assign above to a variable 
+//const hello = `My name is  ${names} and I am ${age} years old`;
+//console.log(hello);
+
+// string properties,  note a property doesn't have parenthesis, lenght counts plus the spaces
+const s =('hello World');
+
+console.log (s.length); //property therefore no paranthesis
+
+console.log (s.toUpperCase()); //method, therefore use of parenthesis
+console.log (s.substring(0, 5)); //substring extracts from specified index
+
+
 
